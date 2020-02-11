@@ -14,6 +14,17 @@ The Kobuki Core stack consists of pure c++ libraries and utilities for working w
 * [kobuki_driver - Doxygen]() - protocol specification and api
 * [kobuki_dock_drive - README](https://github.com/kobuki-base/kobuki_core/blob/devel/kobuki_driver/README.md) - example algorithm for controlling the kobuki with the docking station
 
+## Installation from source
+Install necessary packages:
+```
+sudo apt install ros-eloquent-ecl-tools ros-eloquent-ecl-build ros-eloquent-ecl-core ros-eloquent-ecl-mobile-robot
+```
+Build:
+```
+colcon build --symlink-install
+```
+
+
 ## Other Resources
 
 * [kobuki_ftdi - README](https://github.com/kobuki-base/kobuki_ftdi/blob/devel/README.md) - troubleshooting and flashing the kobuki ftdi usb-serial connection
